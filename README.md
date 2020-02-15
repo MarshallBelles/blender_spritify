@@ -10,15 +10,20 @@ Spritify for Blender saves you time by compiling animations into sprite sheets.
 
 #### MacOS
 
-1. Download or clone this repository.
-2. Open the Terminal application
-3. CD into the Setup directory.
-   EX: `CD /Users/johndoe/Documents/blender_spritify/Setup`
-4. Execute the MacOS-setup.sh script to install dependencies
-   EX: `./MacOs-setup.sh`
+1. Install Dependencies
 
+Using Brew: 
+
+`brew install pkgconfig`
+
+`brew install imagemagick`
+
+2. Clone or download this repository
+
+3. In Blender, install spritify.py as a plugin
 
 ------------------------------ OLD Description ------------------------------
+
 Spritify
 
 When an animation render is complete, all of the frames in the animation are
