@@ -22,7 +22,7 @@ bl_info = {
     "name": "Spritify",
     "author": "Jason van Gumster (Fweeb)",
     "version": (0, 6, 1),
-    "blender": (2, 66, 0),
+    "blender": (2, 8, 0),
     "location": "Render > Spritify",
     "description": "Converts rendered frames into a sprite sheet once render is complete",
     "warning": "Requires ImageMagick",
@@ -40,7 +40,7 @@ class SpriteSheetProperties(bpy.types.PropertyGroup):
         name = "Sprite Sheet Filepath",
         description = "Save location for sprite sheet (should be PNG format)",
         subtype = 'FILE_PATH',
-        default = os.path.join(bpy.context.user_preferences.filepaths.render_output_directory, "sprites.png"))
+        default = os.path.join(bpy.context.preferences.filepaths.render_output_directory, "sprites.png"))
     quality = bpy.props.IntProperty(
         name = "Quality",
         description = "Quality setting for sprite sheet image",
