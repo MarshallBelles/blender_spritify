@@ -1,3 +1,24 @@
+# Spritify Blender 2.8+
+
+Spritify for Blender saves you time by compiling animations into sprite sheets.
+
+### Setup Instructions
+
+#### Windows
+
+#### Linux (Ubuntu / Debian)
+
+#### MacOS
+
+1. Download or clone this repository.
+2. Open the Terminal application
+3. CD into the Setup directory.
+   EX: `CD /Users/johndoe/Documents/blender_spritify/Setup`
+4. Execute the MacOS-setup.sh script to install dependencies
+   EX: `./MacOs-setup.sh`
+
+
+------------------------------ OLD Description ------------------------------
 Spritify
 
 When an animation render is complete, all of the frames in the animation are
